@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Home from "./pages/Home";
 
 // You can also pass an optional settings object
 // below listed default settings
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home/>
     </div>
   );
 }

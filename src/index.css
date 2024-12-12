@@ -28,6 +28,8 @@ Navbar Logo: Work-Sans
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 /* NAVBAR LOGO*/
@@ -149,14 +151,76 @@ Navbar Logo: Work-Sans
 }
 
 /* SUBHEADING*/
-
-
-
-.raleway {
+.raleway-thin {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-medium {
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.raleway-thin-italic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.raleway-light-italic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.raleway-regular-italic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.raleway-medium-italic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.raleway-bold-italic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.raleway-black-italic {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 /* BODY TEXT */
